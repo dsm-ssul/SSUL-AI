@@ -2,7 +2,7 @@ import anthropic
 import re
 
 client = anthropic.Anthropic(
-    api_key="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",
+    api_key="api-key",
 )
 
 def process_user_input(Name , Age ,slary , fixed_expenses,year,target ):#이름 , 나이 , 월급 , 고정비 , 몇년안에 , 얼마모으기
